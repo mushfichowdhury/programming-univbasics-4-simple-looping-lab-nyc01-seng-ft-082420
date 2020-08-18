@@ -14,4 +14,15 @@ def loop_message_n_times(string, limit)
   end
 end
 
+def output_array(string, number)
+  count = 0 
+  while count < number
+  puts string
+  count += 1 
+end
+end
+
+def return_string_array(array)
+  
+
   
