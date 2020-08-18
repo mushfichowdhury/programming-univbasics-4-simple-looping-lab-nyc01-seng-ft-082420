@@ -14,10 +14,10 @@ def loop_message_n_times(string, limit)
   end
 end
 
-def output_array(string, number)
+def output_array(array)
   count = 0 
-  while count < number
-  puts string
+  while count < array.length do
+  puts array[count]
   count += 1 
 end
 end
